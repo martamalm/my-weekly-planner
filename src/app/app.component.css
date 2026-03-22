@@ -1,0 +1,32 @@
+.weekly-planner {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1rem;
+}
+
+.day {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.day-header {
+  font-weight: bold;
+  background-color: #e0e0e0;
+  padding: 0.5rem;
+  border-radius: 8px 8px 0 0;
+}
+
+.event {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+}
+
+.weekend {
+  background-color: #f1f1f1;
+}
